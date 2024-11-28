@@ -9,7 +9,7 @@
     "url": "https://github.com/ROBOTIS-GIT/OpenRB-150.git"
   },
   "dependencies": {
-    "framework-arduino-samd": "*"
+    "framework-arduino-samd": "1.8.14"
   },
   "tools": [
     {
