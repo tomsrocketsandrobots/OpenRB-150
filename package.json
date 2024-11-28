@@ -1,0 +1,14 @@
+{
+    "name": "framework-arduino-robotis",
+    "version": "1.0.0",
+    "description": "Arduino Core for ROBOTIS OpenRB-150",
+    "keywords": ["arduino", "framework", "openrb"],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ROBOTIS-GIT/OpenRB-150.git"
+    },
+    "dependencies": {
+      "framework-arduino-samd": "*"
+    }
+  }
+  
