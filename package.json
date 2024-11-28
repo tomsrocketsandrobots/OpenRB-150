@@ -1,14 +1,19 @@
 {
-  "name": "framework-arduino-openrb",
-  "version": "0.2.1",
-  "description": "Arduino Core for ROBOTIS OpenRB-150",
-  "keywords": ["arduino", "framework", "samd", "openrb"],
-  "homepage": "https://emanual.robotis.com/docs/en/parts/controller/openrb-150/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ROBOTIS-GIT/OpenRB-150.git"
-  },
-  "dependencies": {
-  "framework-arduino-samd": "*"
-  }
+    "name": "framework-arduino-openrb",
+    "version": "0.2.1",
+    "description": "Arduino Core for ROBOTIS OpenRB-150",
+    "keywords": [
+        "arduino",
+        "framework",
+        "samd",
+        "openrb"
+    ],
+    "homepage": "https://github.com/tomsrocketsandrobots/OpenRB-150",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tomsrocketsandrobots/OpenRB-150.git"
+    },
+    "dependencies": {
+        "framework-arduino-samd": "*"
+    }
 }
