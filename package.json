@@ -8,4 +8,7 @@
     "type": "git",
     "url": "https://github.com/ROBOTIS-GIT/OpenRB-150.git"
   }
+  "dependencies": {
+  "framework-arduino-samd": "*"
+  }
 }
