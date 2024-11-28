@@ -1,14 +1,28 @@
 {
-    "name": "framework-arduino-robotis",
-    "version": "1.0.0",
-    "description": "Arduino Core for ROBOTIS OpenRB-150",
-    "keywords": ["arduino", "framework", "openrb"],
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/ROBOTIS-GIT/OpenRB-150.git"
+  "name": "framework-arduino-openrb",
+  "version": "0.2.1",
+  "description": "Arduino Core for ROBOTIS OpenRB-150",
+  "keywords": ["arduino", "framework", "samd", "openrb"],
+  "homepage": "https://emanual.robotis.com/docs/en/parts/controller/openrb-150/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ROBOTIS-GIT/OpenRB-150.git"
+  },
+  "dependencies": {
+    "framework-arduino-samd": "*"
+  },
+  "tools": [
+    {
+      "name": "arm-none-eabi-gcc",
+      "version": "7-2017q4"
     },
-    "dependencies": {
-      "framework-arduino-samd": "*"
+    {
+      "name": "bossac",
+      "version": "1.7.0-arduino3"
+    },
+    {
+      "name": "openocd",
+      "version": "0.10.0-arduino9"
     }
-  }
-  
+  ]
+}
