@@ -10,19 +10,5 @@
   },
   "dependencies": {
     "framework-arduino-samd": "1.8.14"
-  },
-  "tools": [
-    {
-      "name": "arm-none-eabi-gcc",
-      "version": "7-2017q4"
-    },
-    {
-      "name": "bossac",
-      "version": "1.7.0-arduino3"
-    },
-    {
-      "name": "openocd",
-      "version": "0.10.0-arduino9"
-    }
-  ]
+  }
 }
